@@ -1,0 +1,158 @@
+main {
+   max-width: 1366px;
+    max-height: 980px;
+    display: inline-block;
+}
+body {
+    width: 100%;
+    height: 657px;
+}
+#cajaPadre {
+    width: 1366px;
+    height: 657px;
+}
+
+
+#cajaPrimaria {
+    background: rgb(40, 19, 46);
+    width: 1366px;
+    height: 657px;
+    padding: 0;
+    margin-top: 0px;
+}
+
+/*cabeza*/
+#welcom {
+    background-image: linear-gradient( rgb(40, 19, 46), rgb(110, 44, 119));
+    margin-bottom: 0;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(218, 221, 223);
+}
+/*texto para encriptar*/
+#caja1 {
+    width: 600px;
+    margin: 10px;
+    padding: 0px;
+    background-color: rgb(67, 18, 112);
+    display: inline-block;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#caja1:hover{
+    box-shadow: 2px 2px 10px 5px white;
+}
+#texto1 {
+    background-color: rgb(181, 175, 204);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 480px;
+    margin: 0px;
+    padding: 0;
+    font-size: 20px;
+    transition: 0.2s;
+}
+#texto1:hover{
+    box-shadow: inset 2px 2px 10px 5px white;
+}
+/*resultado*/
+#caja2 {
+    width: 600px;
+    height: 480px;
+    background-color: rgb(67, 18, 112);
+    position: absolute;
+    left: 721px;
+    top: 30px;
+    margin: 10px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s
+}
+#caja2:hover{
+    box-shadow: 2px 2px 10px 5px white;
+}
+#texto2 {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: rgb(181, 175, 204);
+    transition: 0.2s
+}#texto2:hover{
+    box-shadow: inset 2px 2px 10px 5px white;
+}
+/*botones*/
+#btn {
+    margin: 5px 5px 5px 15px;
+    padding: 15px;
+    border: none;
+    width: 300px;
+    border-radius: 20px;
+    border: solid rgb(60, 34, 61);
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(221, 215, 224) 50%,rgb(60, 34, 61)50% )right;
+    background-size: 250%;
+    color: rgb(170, 86, 173);
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .5s ease-out;
+
+}
+#btn:hover{
+    background-position: left;
+    color: rgb(60, 34, 61);
+    border: solid rgb(105, 55, 151);
+    box-shadow: 1px 1px 10px 5px white;
+}
+
+
+#btn2 {
+    margin: 5px ;
+    padding: 15px;
+    width: 300px;
+    border-radius: 20px;
+    border: solid rgb(60, 34, 61);
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(221, 215, 224) 50%,rgb(60, 34, 61)50% )right;
+    background-size: 250%;
+    color: rgb(170, 86, 173);
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .5s ease-out;
+}
+#btn2:hover{
+    background-position: left;
+    color: rgb(60, 34, 61);
+    border: solid rgb(105, 55, 151);
+    box-shadow: 1px 1px 10px 5px white;
+}
+#copiar{
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    left: 900px;
+    top: 545px;
+    border: solid rgb(60, 34, 61);
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(221, 215, 224) 50%,rgb(60, 34, 61)50% )right;
+    background-size: 250%;
+    color: rgb(170, 86, 173);
+    font-size: 15px;
+    font-weight: bolder;
+    transition: .5s ease-out;
+}
+#copiar:hover{
+    background-position: left;
+    color: rgb(60, 34, 61);
+    border: solid rgb(105, 55, 151);
+    box-shadow: 1px 1px 10px 5px white;
+}
